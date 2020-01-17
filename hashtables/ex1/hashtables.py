@@ -8,6 +8,10 @@ class LinkedPair:
         self.key = key
         self.value = value
         self.next = None
+    def __str__(self):
+        return f'LinkedPair({self.key}, {self.value})'
+    __repr__ = __str__
+
 
 
 # '''

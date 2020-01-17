@@ -9,7 +9,6 @@ class LinkedPair:
         self.value = value
         self.next = None
 
-
 # '''
 # Resizing hash table
 # '''
